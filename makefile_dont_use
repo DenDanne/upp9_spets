@@ -1,0 +1,20 @@
+CC=gcc
+CFLAGS=-Wall -Wextra -pedantic -std=c11
+LDFLAGS=-L/usr/local/lib -lelectro -lm
+
+.PHONY: all clean
+
+all: libelectro.so electrotest
+
+libelectro.so: electrotest.c electrotest.h
+	$(CC) $(CFLAGS) -fPIC -c electrotest.c -o electrotest.o
+	$(CC) $(CFLAGS) -shared electrotest.o -o libelectro.so
+	sudo cp libelectro.so /usr/local/lib
+	sudo ldconfig
+
+electrotest: main.c electrotest.h
+	$(CC) $(CFLAGS) main.c -o electrotest $(LDFLAGS)
+
+clean:
+	rm -f electrotest electrotest.o libelectro.so
+
