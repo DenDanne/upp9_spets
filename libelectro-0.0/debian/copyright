@@ -1,18 +1,27 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: libelectro
 Upstream-Contact: <preferred name and address to reach the upstream project>
-Source: <url://example.com>
+Source: <https://github.com/DenDanne/upp9_spets.git>
 #
 # Please double check copyright with the licensecheck(1) command.
 
-Files:     debian/libelectro-dev/usr/lib/libelectro.so
-           debian/libelectro.install
-           electrotest.c
-           electrotest.h
-           makefile
-Copyright: __NO_COPYRIGHT_NOR_LICENSE__
-License:   __NO_COPYRIGHT_NOR_LICENSE__
-
+Files: *
+Copyright: (c) 2023 Daniel Lidén
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in "/usr/share/common-licenses/GPL-3".
 #----------------------------------------------------------------------------
 # Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
 # license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+

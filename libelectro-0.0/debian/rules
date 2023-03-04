@@ -9,4 +9,7 @@
 	dh $@
 
 dh_auto_install:
-	install -D libelectro.so debian/libelectro-dev/usr/lib/libelectro.so
+	mkdir -p debian/libelectro-dev/usr/include/
+	install -m 0644 electrotest.h debian/libelectro-dev/usr/include/
+	mkdir -p debian/libelectro-dev/usr/lib/
+	install -m 0644 libelectro.so debian/libelectro-dev/usr/lib/

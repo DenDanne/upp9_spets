@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sat, 04 Mar 2023 13:00:39 +0100
+Source: libelectro
+Binary: libelectro
+Built-For-Profiles: noudeb
+Architecture: source amd64
+Version: 0.0-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Daniel <daniel01liden@gmail.com>
+Changed-By: Daniel <daniel01liden@gmail.com>
+Description:
+ libelectro - auto-generated package by debmake
+Closes: 1234
+Changes:
+ libelectro (0.0-1) UNRELEASED; urgency=low
+ .
+   * Initial release. Closes: #1234
+Checksums-Sha1:
+ 4377dc8e38476d2f8dbb08fbd11defa9773c54ce 837 libelectro_0.0-1.dsc
+ 6713bd75b4fa828d25c5da183688e32a2426c514 4525 libelectro_0.0.orig.tar.gz
+ a976a6d708f6ad6958c2f34f6d4d754634854aff 1988 libelectro_0.0-1.debian.tar.xz
+ 5ef55692db75ced3588a171309adb3649fb5290e 6710 libelectro_0.0-1_amd64.buildinfo
+ 710082377b030e3e8e7632f2990284baabb2bf1c 1918 libelectro_0.0-1_amd64.deb
+Checksums-Sha256:
+ 28f4dcbcd4cfd0c5f6d8d06435d5a7ba23858dfe27c1ed6328468567b39b6453 837 libelectro_0.0-1.dsc
+ b72bd1f2b2c8e8a08b053762319c212618d914f1805edb2b858e89275270af6f 4525 libelectro_0.0.orig.tar.gz
+ 3c32bff6d85af98997fc97b5b7d1f5ad2f61b7d4c2d1384ce4c4161653574bd5 1988 libelectro_0.0-1.debian.tar.xz
+ 5833e33fd6b279ea9f0d28f61620603c787fd3b13859ecc1b4db0dbc070c6d9d 6710 libelectro_0.0-1_amd64.buildinfo
+ dc4b4f6537e0a47a2942d7efd12c9921950cdcf1f1376589d0539363928527ef 1918 libelectro_0.0-1_amd64.deb
+Files:
+ a51e9e7dd8f0524784d4e8b65cb88938 837 libs optional libelectro_0.0-1.dsc
+ a0701805148fb0b39cef82deca03c642 4525 libs optional libelectro_0.0.orig.tar.gz
+ 2f378ec4cf2777e02169cd02ecc75045 1988 libs optional libelectro_0.0-1.debian.tar.xz
+ b0d0db8befce107de7f4927b6fd8117e 6710 libs optional libelectro_0.0-1_amd64.buildinfo
+ 9a8472849205ccbe49f6bc38205f331c 1918 libs optional libelectro_0.0-1_amd64.deb

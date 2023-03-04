@@ -2,7 +2,7 @@ Package: libelectro
 Version: 0.0-1
 Architecture: amd64
 Maintainer: Daniel <daniel01liden@gmail.com>
-Installed-Size: 9
+Installed-Size: 10
 Section: libs
 Priority: optional
 Multi-Arch: same

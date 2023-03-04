@@ -1,5 +1,5 @@
 Source: libelectro
-Section: unknown
+Section: libs
 Priority: optional
 Maintainer: Daniel <daniel01liden@gmail.com>
 Build-Depends: debhelper-compat (= 12)
