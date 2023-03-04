@@ -1,10 +1,10 @@
 Source: libelectro
 Section: unknown
 Priority: optional
-Maintainer: Daniel <>
+Maintainer: Daniel <daniel01liden@gmail.com>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.5.0
-Homepage: <insert the upstream URL, if relevant>
+Homepage: <https://github.com/DenDanne/upp9_spets.git>
 
 Package: libelectro
 Section: libs

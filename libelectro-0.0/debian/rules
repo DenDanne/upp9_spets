@@ -7,3 +7,6 @@
 
 %:
 	dh $@
+
+dh_auto_install:
+	install -D libelectro.so debian/libelectro-dev/usr/lib/libelectro.so

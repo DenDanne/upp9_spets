@@ -12,12 +12,12 @@ $(LIBRARY): $(SOURCES)
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^
 
 install: $(LIBRARY) $(HEADERS)
-	install -D $(LIBRARY) /usr/lib/$(LIBRARY)
-	install -D $(HEADERS) /usr/include/$(HEADERS)
+	install -D $(LIBRARY) debian/libelectro-dev/usr/lib/$(LIBRARY)
+	install -D $(HEADERS) debian/libelectro-dev/usr/include/$(HEADERS)
 
 uninstall:
-	rm /usr/lib/$(LIBRARY)
-	rm /usr/include/$(HEADERS)
+	rm debian/libelectro-dev/usr/lib/$(LIBRARY)
+	rm debian/libelectro-dev/usr/include/$(HEADERS)
 
 clean:
 	rm -f $(LIBRARY)
